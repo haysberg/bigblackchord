@@ -4,7 +4,7 @@ import java.util.Random;
 /**
  * Fixfingers thread that periodically access a random entry in finger table 
  * and fix it.
- * @author Chuan Xia
+ * @author Chuan Xia & Téo Haÿs
  *
  */
 

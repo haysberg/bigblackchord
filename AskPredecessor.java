@@ -3,7 +3,7 @@ import java.net.InetSocketAddress;
 /**
  * Ask predecessor thread that periodically asks for predecessor's keep-alive,
  * and delete predecessor if it's dead.
- * @author Chuan Xia
+ * @author Chuan Xia & Téo Haÿs
  *
  */
 public class AskPredecessor extends Thread {

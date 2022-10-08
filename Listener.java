@@ -6,7 +6,7 @@ import java.net.Socket;
 /**
  * Listener thread that keeps listening to a port and asks talker thread to process
  * when a request is accepted.
- * @author Chuan Xia
+ * @author Chuan Xia & Téo Haÿs
  *
  */
 

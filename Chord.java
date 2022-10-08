@@ -6,7 +6,7 @@ import java.util.Scanner;
 /**
  * Chord class that offers the UI to create chord node 
  * and join a existing chord ring.
- * @author Chuan Xia
+ * @author Chuan Xia & Téo Haÿs
  *
  */
 
@@ -43,7 +43,7 @@ public class Chord {
 		else if (args.length == 3) {
 			m_contact = Helper.createSocketAddress(args[1]+":"+args[2]);
 			if (m_contact == null) {
-				System.out.println("Cannot find address you are trying to contact. Now exit.");
+				System.out.println("Cannot find address you are trying to contact. Now exiting.");
 				return;
 			}	
 		}
@@ -58,7 +58,7 @@ public class Chord {
 		
 		// fail to join contact node
 		if (!successful_join) {
-			System.out.println("Cannot connect with node you are trying to contact. Now exit.");
+			System.out.println("Cannot connect with node you are trying to contact. Now exiting.");
 			System.exit(0);
 		}
 		

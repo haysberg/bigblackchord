@@ -4,7 +4,7 @@ import java.util.HashMap;
 /**
  * Node class that implements the core data structure 
  * and functionalities of a chord node
- * @author Chuan Xia
+ * @author Chuan Xia & Téo Haÿs
  *
  */
 

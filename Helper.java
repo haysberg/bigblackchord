@@ -22,7 +22,7 @@ import java.util.HashMap;
  * (3) Network and address services - send request to a node to get desired
  * socket address/response, create socket address object using string, read 
  * string from an input stream.
- * @author Chuan Xia
+ * @author Chuan Xia & Téo Haÿs
  *
  */
 

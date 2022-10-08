@@ -4,7 +4,7 @@ import java.util.Scanner;
 /**
  * Query class that offers the interface by which users can do 
  * search by querying a valid chord node.
- * @author Chuan Xia
+ * @author Chuan Xia & Téo Haÿs
  *
  */
 

@@ -7,7 +7,7 @@ import java.net.Socket;
 /**
  * Talker thread that processes request accepted by listener and writes
  * response to socket.
- * @author Chuan Xia
+ * @author Chuan Xia & Téo Haÿs
  *
  */
 
